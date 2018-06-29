@@ -35,11 +35,11 @@ class Ideone
                 	digit++;
                 	}
                 }
-                if(upper!=0&&lower!=0&&special!=0&&digit!=0&&arr.length==8)
+                if(upper!=0&&lower!=0&&special!=0&&digit!=0&&arr.length>=8)
                 {
                     System.out.println("Strong");
                 }
-                else if(upper!=0&&lower!=0&&special!=0&&arr.length==6)
+                else if(upper!=0&&lower!=0&&special!=0&&arr.length>=6)
                      System.out.println("Moderate"); 
                 else
                      System.out.println("weak"); 
