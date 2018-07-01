@@ -33,7 +33,9 @@ public class frequentdigit
             else if (count==max)
             {
                 if(i1[j]>maxelement)
+                {
                     maxelement=i1[j];
+                }
             }
          }
        }
